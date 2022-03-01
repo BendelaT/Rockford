@@ -1,0 +1,137 @@
+@font-face {
+  font-family: montserrat;
+  src: url(../fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+  font-family: montserratBold;
+  src: url(../fonts/Montserrat-Bold.ttf);
+}
+body {
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+  height: 1080px;
+  display: flex;
+  position: relative;
+  background: url(../images/register/bg.png);
+  background-repeat: repeat-x;
+  background-color: #222222;
+}
+.register_content {
+  position: absolute;
+  background: url(../images/register/Component1.png);
+  background-repeat: no-repeat;
+  left: 50%;
+  transform: translate(-50%);
+  max-width: 1425px;
+  width: 100%;
+  height: 1080px;
+}
+.register_logo {
+  position: absolute;
+  top: 191px;
+  left: 80px;
+}
+.text {
+  position: absolute;
+  top: 272px;
+  left: 80px;
+  width: 262px;
+  font-family: montserrat;
+  font-size: 12px;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 15px;
+}
+.text p span {
+  color: #ffc700;
+}
+.text p:nth-child(2) {
+  margin-top: 20px;
+}
+.form_valid {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 378px;
+  height: 510px;
+  justify-content: space-between;
+  left: 48px;
+}
+input {
+  width: 400px;
+  height: 90px;
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(159, 159, 159, 0.5);
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-weight: 400;
+  padding-left: 59px;
+}
+input::placeholder {
+  color: #9f9f9f;
+}
+.username {
+  font-family: montserrat;
+  background: url(../images/register/username.png);
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 24px;
+}
+.email {
+  font-family: montserrat;
+  background: url(../images/register/email.png);
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 21px;
+}
+.password {
+  font-family: montserrat;
+  background: url(../images/register/password.png),
+    url(../images/register/passwordvis.png);
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 22.2px, 358px;
+}
+.password2 {
+  font-family: montserrat;
+  background: url(../images/register/password.png),
+    url(../images/register/passwordvis.png);
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 22.2px, 358px;
+}
+.valid_buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  top: 520px;
+  width: 300px;
+  margin-left: 100px;
+}
+.login {
+  font-family: montserrat;
+  font-size: 14px;
+  color: #ffffff;
+  height: 70px;
+  line-height: 70px;
+}
+.login_buttonsRect {
+  height: 25px;
+  border: 0.1px solid #9f9f9f;
+  width: 0.1px;
+  background-color: #9f9f9f;
+  margin-top: 23px;
+}
+.register {
+  color: #000000;
+  font-size: 18px;
+  font-family: montserratBold;
+  border: 1px solid #f2f2f2;
+  border-radius: 6px;
+  background: #f2f2f2;
+  width: 181px;
+  height: 70px;
+  text-align: center;
+  line-height: 70px;
+}
